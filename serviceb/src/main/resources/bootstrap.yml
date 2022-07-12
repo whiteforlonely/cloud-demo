@@ -1,0 +1,8 @@
+server:
+  port: 17001
+
+spring:
+  application:
+    name: serviceb
+  profiles:
+    active: local

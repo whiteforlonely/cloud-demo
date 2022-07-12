@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        namespace: ef09c6fc-f58b-4225-93b7-367362eb6314
+        group: "LOCAL"
+        file-extension: yml
+      discovery:
+        group: "LOCAL"
+        namespace: ef09c6fc-f58b-4225-93b7-367362eb6314
