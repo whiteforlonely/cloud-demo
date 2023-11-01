@@ -1,2 +1,12 @@
 server:
   port: 17000
+
+spring:
+  # ES 配置
+  elasticsearch:
+    uris:
+      - localhost:9200
+    username: elastic
+    password: 2N7A9_Bb9SbdaWdQNit4
+    connection-timeout: 3s
+    socket-timeout: 30s
