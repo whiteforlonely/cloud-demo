@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://resource.wenzima.com/xslt/test.xsl"?>
+
+<books>
+    <book>
+        <title>Spring in Action</title>
+        <author>Craig Walls</author>
+        <year>2014</year>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>Spring Boot in Action</title>
+        <author>Craig Walls</author>
+        <year>2015</year>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>Spring Boot Up and Running</title>
+        <author>Mark Pollack</author>
+        <year>2015</year>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>Spring Boot Cookbook</title>
+        <author>Mark Pollack</author>
+        <year>2016</year>
+        <price>29.99</price>
+    </book>
+</books>
