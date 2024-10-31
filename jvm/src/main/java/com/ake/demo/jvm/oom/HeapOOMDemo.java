@@ -13,8 +13,6 @@ import java.util.List;
  * 需要去target/classes目录下面去执行命令：  java -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError com.ake.demo.jvm.oom.HeapOOMDemo
  */
 public class HeapOOMDemo {
-
-    static class OOMObject {}
     public static void main(String[] args) {
         List<OOMObject> list = new ArrayList<>();
         while (true) {
