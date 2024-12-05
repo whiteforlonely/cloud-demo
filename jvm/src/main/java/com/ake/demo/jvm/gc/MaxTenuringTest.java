@@ -39,5 +39,11 @@ public class MaxTenuringTest {
      *  Metaspace       used 2640K, capacity 4486K, committed 4864K, reserved 1056768K
      *   class space    used 280K, capacity 386K, committed 512K, reserved 1048576K
      * 2024-12-04T20:54:21.312+0800: 0.070: [CMS-concurrent-mark: 0.000/0.000 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+     *
+     * here if set -XX:MaxTenuringThreshold=15,the the result of survivor will surprise you, if you just only know that
+     * all the objects will promote to old generation at the age of the setting arguments, then this is not right!
+     *
+     * there are n objects in survivor have the same ages, and also the total size of these objects are large or equal to the
+     * half size of survivor, then all of these objects will promote to old generation directly!
      */
 }
