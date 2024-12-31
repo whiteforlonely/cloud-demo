@@ -65,5 +65,6 @@
     <modules>
         <module>servicea</module>
         <module>serviceb</module>
+        <module>uilab</module>
     </modules>
 </project>
