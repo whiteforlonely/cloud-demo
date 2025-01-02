@@ -50,7 +50,7 @@ public class MainController {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Open Image");
         fileChooser.getExtensionFilters().addAll(
-                new FileChooser.ExtensionFilter("Image Files", "*.png", "*.jpg", "*.gif"),
+                new FileChooser.ExtensionFilter("Image Files", "*.png", "*.jpeg", "*.webp","*.jpg", "*.gif"),
                 new FileChooser.ExtensionFilter("All Files", "*.*")
         );
         String absolutePath = fileChooser.showOpenDialog(null).getAbsolutePath();

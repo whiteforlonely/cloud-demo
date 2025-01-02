@@ -21,7 +21,7 @@
         <HBox prefHeight="600" prefWidth="600">
             <ScrollPane prefHeight="600" prefWidth="600">
                 <AnchorPane fx:id="drawArea">
-                    <ImageView fx:id="imagePane" />
+                    <ImageView fx:id="imagePane"/>
                 </AnchorPane>
             </ScrollPane>
             <TextArea fx:id="responseText" editable="false" prefHeight="350" prefWidth="400"/>
