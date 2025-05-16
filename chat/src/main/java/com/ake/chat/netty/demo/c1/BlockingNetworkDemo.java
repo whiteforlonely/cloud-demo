@@ -1,6 +1,5 @@
 package com.ake.chat.netty.demo.c1;
 
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.BufferedReader;
@@ -15,7 +14,6 @@ import java.net.Socket;
  * @version 1.0.0
  * date: 2025/5/7 14:32
  */
-@Slf4j
 public class BlockingNetworkDemo {
 
     private void startServer(int port) {
@@ -47,7 +45,7 @@ public class BlockingNetworkDemo {
             }
 
         } catch (IOException e) {
-            log.error("Error occurred while processing request: {}", e.getMessage());
+            System.out.println("Error occurred while processing request: " + e.getMessage());
         }
 
 
@@ -69,7 +67,7 @@ public class BlockingNetworkDemo {
             }
 
         } catch (IOException e) {
-            log.error("Error occurred while processing request: {}", e.getMessage());
+            System.out.println("Error occurred while processing request: " +  e.getMessage());
         }
     }
 
